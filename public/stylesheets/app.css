@@ -1,0 +1,37 @@
+body{
+    background-color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+header {
+    background: #244751;
+    color: #E8FDFF;
+    display: flex;
+    justify-content: center;
+}
+main{
+    padding: 40px 0;
+}
+.finstagram-post{
+    margin-bottom: 48px;
+    padding: 20px 4%;
+    background: white;
+}
+    .finstagram-post .user-info img{
+        border-radius: 10px;
+    }
+    .finstagram-post a.photo{
+        transition: padding 0.5s;
+    }
+    .finstagram-post a.photo:hover{
+        padding: 10px;
+    }
+    .finstagram-post .action .comment-count{
+        color: inherit;
+        transition: ease color 0.5s;
+        cursor: pointer;
+    }
+    .finstagram-post .action .comment-count:hover{
+        color: #f3a227;
+    }
+
